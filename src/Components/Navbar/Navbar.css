@@ -1,0 +1,128 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    padding: 15px 7%;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center; /* Center the list items */
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon {
+    color: #ffffff;
+}
+
+.icon-link {
+    margin-left: 20px; /* Adjust the spacing between icons */
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* Set background color to black */
+    z-index: 1000; /* ensure the overlay is on top of other content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu {
+    width: 100%;
+    max-width: 100%; /* Set maximum width to 100% */
+    background-color: #000000; /* Set background color to black */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    margin: 10px 0;
+}
+
+.mobile-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Add this to your CSS file */
+.CloseIcon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001; /* ensure the close icon is above the menu */
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #000000;
+        padding: 15px 7%;
+    }
+
+    .navbar-mobile .logo {
+        width: 160px;
+    }
+
+    .HamburgerMenu {
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-menu li {
+        margin: 10px 0;
+    }
+
+    .mobile-menu li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

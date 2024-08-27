@@ -1,0 +1,33 @@
+.bottom-bar {
+    background-color: #000000; /* Background color of the bottom bar */
+    color: #fff; /* Text color of the bottom bar */
+    padding: 15px 7%; /* Padding around the content */
+    position: fixed; /* Fix the bottom bar at the bottom of the viewport */
+    left: 0; /* Align left */
+    bottom: 0; /* Align to the bottom of the viewport */
+    width: 100%; /* Take full width of the viewport */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis (horizontally) */
+    align-items: center; /* Center items vertically */
+}
+
+.made-by {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center align the text */
+}
+
+.icon-links {
+    display: flex; /* Use flexbox for icon links */
+}
+
+.contact-email, .contact-phone {
+    flex-grow: 1; /* Allow the text to take up remaining space */
+    text-align: center; /* Center align the text */
+}
+
+
+@media (max-width: 600px) {    
+    .logo-link {
+        display: none;
+    }
+}
