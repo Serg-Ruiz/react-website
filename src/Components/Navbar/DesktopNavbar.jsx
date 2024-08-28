@@ -21,7 +21,7 @@ export default function DesktopNavbar() {
                 <a href="https://www.linkedin.com/in/sergio-ruiz-8b6b2725b/" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="LinkedIn" title="LinkedIn">
                     <FontAwesomeIcon icon={faLinkedin} className="icon" size="2x" color='white'/>
                 </a>
-                <a href="https://code.fullstackprogrammer.net/s321w1" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="GitHub" title="GitHub">
+                <a href="https://github.com/Serg-Ruiz" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="GitHub" title="GitHub">
                     <FontAwesomeIcon icon={faGithubSquare} className="icon" size="2x" color='white' />
                 </a>
             </nav>

@@ -21,6 +21,7 @@ body {
 
 .section {
     margin-bottom: 30px;
+
 }
 
 .section h2 {
@@ -161,6 +162,7 @@ body {
 @media (max-width: 400px) {
     .resume {
         padding: 5px;
+        padding-bottom: 30px;
     }
 
     .section h2 {

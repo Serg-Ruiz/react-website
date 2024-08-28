@@ -24,9 +24,26 @@ export default function CardOne() {
                 </p>
             <h2>2. Building The Main Components</h2>
                 <p className='second-paragraph'>
-                    
-
+                    After researching react-dom and learning how to create different pages, I discovered that React allows for the creation of various reusable components.
+                    I developed top and bottom navbar components to be displayed consistently across all pages. Once the navbars were complete, I ensured they were responsive,
+                    adapting seamlessly to different screen sizes for tablets and phones. This approach of creating two main components and dynamically changing the content between
+                    them felt significantly different from traditional HTML and CSS coding, and I appreciated the structured methodology. I then created pages for Home, Resume, Contact,
+                    and Portfolio, each to be displayed between the top and bottom navbars.
                 </p>
+            <h2>3. Conclusion</h2>
+                <p className='third-paragraph'>
+                    Building a website with React was a rewarding experience. I utilized JavaScript, HTML, and CSS to create the foundational structure and design of the site, as I typically would.
+                    Additionally, I integrated some React libraries to enhance the user experience with engaging animations. Ensuring the website was responsive for tablets and phones was a priority,
+                    so I implemented various techniques to achieve a seamless experience across different devices. This project not only allowed me to showcase my technical skills but also demonstrated
+                    the versatility and power of React in modern web development.
+                </p>
+
+            <div className='button-wrapper'>
+              <a href="https://github.com/Serg-Ruiz/react-website" target="_blank" rel="noopener noreferrer" className="code-repo-button">
+                  Code Repository
+              </a>
+            </div>
+                
         </div>
     );
 }
