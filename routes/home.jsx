@@ -36,7 +36,7 @@ export default function Home() {
                         and frontend development. Whether I'm crafting elegant algorithms or designing intuitive user interfaces, I'm always eager to dive into the world of computer science and create innovative solutions.
                         </p>
                         <div className="data">
-                            <a href="malito:sergioruiz@fullstackprogrammer.net" className="hire">Hire Me</a>
+                            <a href="mailto:sergioruiz@fullstackprogrammer.net" className="hire">Hire Me</a>
                         </div>
                     </div>
                 </div>
