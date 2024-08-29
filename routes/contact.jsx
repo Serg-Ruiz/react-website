@@ -20,7 +20,7 @@ export default function Contact() {
         e.preventDefault();
 
         try {
-            const response = await fetch('/var/www/html/send.php', {
+            const response = await fetch('send.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
