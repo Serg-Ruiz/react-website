@@ -10,6 +10,7 @@ import Home from "../routes/home";
 import Resume from "../routes/resume";
 import Portfolio from "../routes/portfoliopage";
 import CardOne from "../routes/cardone";
+import CardTwo from "../routes/cardtwo";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "portfolio/card-one",
         element: <CardOne />,
+      },
+      {
+        path: "portfolio/card-two",
+        element: <CardTwo />
       },
       // Add more routes as needed
     ],

@@ -11,7 +11,13 @@ export default function portfoliopage () {
                 <img src={card_one} alt="Card One" />
                 <span className="stack_used"> HTML, CSS, Javascript, Npm</span>
                 <h3>Personal Portfolio Website Made With React</h3>
-            </Link>
-        </div>
-    )
+           </Link>          
+           <Link to="/portfolio/card-two" className="card-item">
+                <img src={card_one} alt= "Card One"/>
+                <span className="stack_used">Python</span>
+                <h3>Python Terminal Chat Program</h3>
+           </Link>
+        </div> 
+
+  )
 }
