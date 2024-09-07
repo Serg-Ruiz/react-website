@@ -43,6 +43,8 @@ export default function Resume() {
                 <div className="project">
                     <h3>Portfolio Website Created In React</h3>
                     <p>Created a portfolio website in react using HTML CSS and Javascript.</p>
+                    <h3>Python Chat Application</h3>
+                    <p>Created a chat app in python to understand sockets</p>
                 </div>
             </div>
         </div>

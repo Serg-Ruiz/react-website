@@ -13,7 +13,7 @@ import profile from '../src/assets/profile.jpg'
 
 export default function Home() {
     return (
-        <div>
+        <div className = "main">
             <h1>
                 Hello, My Name Is Sergio. I Am Your Next{" "}
                 <ReactTyped

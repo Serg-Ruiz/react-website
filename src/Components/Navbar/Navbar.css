@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #000;
+    background: #1338BE;
     padding: 15px 7%;
 }
 
@@ -50,7 +50,7 @@ ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000; /* Set background color to black */
+    background-color: #1338BE; /* Set background color to black */
     z-index: 1000; /* ensure the overlay is on top of other content */
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ ul li a {
 .mobile-menu {
     width: 100%;
     max-width: 100%; /* Set maximum width to 100% */
-    background-color: #000000; /* Set background color to black */
+    background-color:  #1338BE;/* Set background color to black */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -71,7 +71,7 @@ ul li a {
 }
 
 .mobile-menu li a {
-    color: #ffffff;
+    color: #fffffff; 
     text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ ul li a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: #000000;
+        background: #1338BE; 
         padding: 15px 7%;
     }
 
@@ -111,7 +111,7 @@ ul li a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #000000;
+        background-color: #1338BE; 
         list-style: none;
         padding: 0;
         margin: 0;
